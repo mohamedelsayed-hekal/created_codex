@@ -32,12 +32,12 @@
 
 </head>
 
-<body style="background-color: #f6f8ff;">
+<body>
 
     <!-- ==================================================================================================================================== -->
     <!-- Start header home Section -->
 
-    <header>
+    <header class="create-home">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -47,21 +47,39 @@
                 <div class="col-md-6 mt-4 ">
                     <h1 class="text-black">Create Account</h1>
                     <h5 class="text-muted">Go ahead and sign up, let everyone<br>know how awesome you are!</h5>
+
                     <h4 id="result"></h4>
+
                     <form action="created.html" method="post" onsubmit="return vailDate()">
-                        <input type="text" name="user" placeholder="User Name" class="form-control mt-3 p-4" id="user">
 
-                        <input type="text" name="email" placeholder="E-mail" class="form-control mt-3 p-4" id="email">
+                        <div>
+                            <i class="fa-solid fa-user" id="demo"></i>
+                            <input type="text" name="user" placeholder="User Name" class="form-control mt-3 p-4"
+                                id="user">
+                        </div>
 
-                        <input type="password" name="pass" placeholder="Password" class="form-control mt-3 p-4"
-                            id="pass">
+                        <div>
+                            <i class="fa-solid fa-envelope" id="demo1"></i>
+                            <input type="text" name="email" placeholder="E-mail" class="form-control mt-3 p-4"
+                                id="email">
+                        </div>
 
-                        <input type="password" name="confirm" placeholder="Confirm Password"
-                            class="form-control mt-3 p-4" id="confirm">
+                        <div>
+                            <i class="fa-solid fa-lock" id="demo2"></i>
+                            <input type="password" name="pass" placeholder="Password" class="form-control mt-3 p-4"
+                                id="pass">
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-lock" id="demo2"></i>
+                            <input type="password" name="confirm" placeholder="Confirm Password"
+                                class="form-control mt-3 p-4" id="confirm">
+                        </div>
 
                         <input type="submit" value="Create New Account" class="btn-block mt-4">
 
                     </form>
+
                 </div>
             </div>
         </div>
@@ -80,19 +98,19 @@
     </script>
     <!-- wow js -->
 
-    <!-- jquery js -->
+    <!--link jquery js -->
     <script src="js/jquery.slim.min.js"></script>
 
-    <!--popper js  -->
+    <!-- link popper js  -->
     <script src="js/popper.min.js"></script>
 
-    <!--bootstrap js  -->
+    <!-- link bootstrap js  -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- mdbbootstrap -->
+    <!--link mdbbootstrap -->
     <script src="js/mdb.min.js"></script>
 
-    <!-- main js -->
+    <!--file main js -->
     <script src="js/main.js"></script>
 
 </body>
