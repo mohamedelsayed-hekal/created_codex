@@ -1,0 +1,38 @@
+ /* ======================================================================= */
+ /* =========================== */
+ /* Start style css_index.html */
+
+ .header-home a {
+    letter-spacing: 2px;
+    background-color:#00f;
+    font-weight: bolder;
+    color:#fff;
+     border: none;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+ /* End style css_index.html */
+/* ============================= */
+/* ========================================================================== */
+
+
+/* ========================================================================== */
+/* ============================= */
+/* Start style css_register.html */
+
+form input:nth-of-type(5){
+    letter-spacing: 2px;
+    background-color:#00f;
+    font-weight: bolder;
+    color: #fff;
+     border: none;
+    border-radius: 5px;
+    padding: 5px;
+   
+    
+}
+
+/* End style css_register.html */
+/* ============================= */
+/* ========================================================================== */
