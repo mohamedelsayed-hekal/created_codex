@@ -1,38 +1,88 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-color: #f6f8ff;
+ }
+
  /* ======================================================================= */
  /* =========================== */
  /* Start style css_index.html */
+ /* Start header home Section */
 
  .header-home a {
-    letter-spacing: 2px;
-    background-color:#00f;
-    font-weight: bolder;
-    color:#fff;
+     letter-spacing: 2px;
+     background-color: #00f;
+     font-weight: bolder;
+     color: #fff;
      border: none;
-    border-radius: 5px;
-    padding: 5px;
+     border-radius: 5px;
+     padding: 5px;
 
+ }
+     @media only screen and (max-width:768px){
+    .header-home img {
+        display: block;
+        margin:20px auto;
+    }
 }
+     
+ /* End header home Section */
  /* End style css_index.html */
-/* ============================= */
-/* ========================================================================== */
+ /* ============================= */
+ /* ========================================================================== */
 
 
-/* ========================================================================== */
-/* ============================= */
-/* Start style css_register.html */
-
-form input:nth-of-type(5){
-    letter-spacing: 2px;
-    background-color:#00f;
-    font-weight: bolder;
-    color: #fff;
+ /* ========================================================================== */
+ /* ============================= */
+ /* Start style css_register.html */
+ /* Start header home Section */
+ 
+ form input {
+     letter-spacing: 2px;
+     background-color: #00f;
+     font-weight: bolder;
+     color: #fff;
      border: none;
-    border-radius: 5px;
-    padding: 5px;
-   
-    
-}
+     border-radius: 5px;
+     padding: 5px;
 
-/* End style css_register.html */
-/* ============================= */
-/* ========================================================================== */
+
+ }
+ 
+
+  #demo{
+    color: #00f;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 2px;
+
+
+ }
+
+  #demo1{
+    color: #00f;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 2px;
+
+ }
+
+  #demo2{
+    color: #00f;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 2px;
+
+ }
+     
+ 
+/* End header home Section */
+ /* End style css_register.html */
+ /* ============================= */
+ /* ========================================================================== */
