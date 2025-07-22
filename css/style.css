@@ -40,7 +40,8 @@
  /* Start style css_register.html */
  /* Start header home Section */
  
- form input {
+ form a {
+      text-align: center;
      letter-spacing: 2px;
      background-color: #00f;
      font-weight: bolder;
